@@ -1,0 +1,18 @@
+{
+  "name": "tstestsample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.2",
+    "@types/node": "^10.1.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.244.1",
+    "uuid": "^3.2.1"
+  }
+}
