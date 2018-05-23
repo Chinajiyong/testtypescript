@@ -1,8 +1,8 @@
 Description:
-TestMaster.ts是定义Master、Child、Interface的文件
-Index.ts 是定义一个CallSave function invoking "Save" method
+TestMaster.ts define Master、Child、Interface
+Index.ts define "CallSave" function to invok "Save" method of "Master".
 
-Also we have created a table called "TS_LIST" in DYNAMODB
+Also we have created a table called "TS_LIST" in DYNAMODB.
 
 Steps:
 1.	Please use “npm install” to download the package, such as "aws-sdk"、"uuid"、"node types".
