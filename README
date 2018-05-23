@@ -1,0 +1,16 @@
+Description:
+TestMaster.ts是定义Master、Child、Interface的文件
+Index.ts 是定义一个CallSave function invoking “Save” method
+
+Also we have created a table called “TS_LIST” in DYNAMODB
+
+
+Steps:
+1.	Please use “npm install” to download the package, such as “aws-sdk”、“uuid”、”node types”.
+ 
+2.	Compile testmaster.ts, use “tsc testmaster.ts”, it threw these errors, but we didn’t find the way to solve them.
+ 
+3.	Compile index.ts file, use:  “tsc index.ts”.
+4.	Run the index.js, use: “node index.js”, the result is the following screenshot:
+ 
+
