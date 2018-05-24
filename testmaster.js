@@ -50,10 +50,11 @@ var AWS = require("aws-sdk");
 ///import { AWS } from 'aws-sdk';
 var uuidv4 = require("uuid/v4");
 //Credentials
+var credentials = new AWS.SharedIniFileCredentials({ profile: 'default' });
+AWS.config.credentials = credentials;
+console.log(credentials);
 AWS.config.update({
-    region: "us-east-2",
-    accessKeyId: "AKIAJDHOQE7BJNX2E65Q",
-    secretAccessKey: "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"
+    region: "us-east-2"
 });
 //var ddb = new AWS.DynamoDB({ apiVersion: '2012-08-10' });
 //var s3 = new AWS.S3();
