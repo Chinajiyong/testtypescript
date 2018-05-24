@@ -2,6 +2,9 @@ Description:
 TestMaster.ts define Master、Child、Interface
 Index.ts define "CallSave" function to invok "Save" method of "Master".
 
+Loading Credentials in Node.js from Environment Variables
+https://docs.aws.amazon.com/zh_cn/sdk-for-javascript/v2/developer-guide/loading-node-credentials-environment.html
+
 Also I have created a table called "TS_LIST" in DYNAMODB.
 
 Steps:
